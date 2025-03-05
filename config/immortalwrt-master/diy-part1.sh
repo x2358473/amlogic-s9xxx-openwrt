@@ -7,7 +7,7 @@
 #========================================================================================================================
 
 # Add a feed source
-sed -i 'src-git helloworld https://github.com/fw876/helloworld.git' feeds.conf.default
+sed -i '$a src-git helloworld https://github.com/fw876/helloworld.git' feeds.conf.default
 # other
 # rm -rf package/emortal/{autosamba,ipv6-helper}
 
